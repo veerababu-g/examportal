@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const api = axios.create({
-  baseURL: "https://examportalbackend-3zxw.onrender.com/api",
+  baseURL: "https://examportalbackend-one.vercel.app/api",
 });
 
 api.interceptors.request.use((config) => {
